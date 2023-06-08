@@ -1,0 +1,30 @@
+.navbar-container{
+  background: #1e2326;
+  padding: 2rem 3rem;
+  margin: 0;
+
+}
+.navbar-container .navbar-left a{
+  font-family: 'Righteous';
+  font-size: 36px;
+  color: #1CB698;
+  text-decoration: none;
+}
+
+.navbar-container .navbar-right{
+  display: flex;
+  list-style: none;
+
+}
+
+.navbar-container .navbar-right ul li a{
+  color:#ffff;
+  transition: .5s;
+  text-decoration: none;
+}
+.navbar-container .navbar-right ul li a:hover{
+  color: #1CB698;
+}
+
+
+
