@@ -1,10 +1,13 @@
-<div class="banner d-flex align-items-center justify-content-center h=75" >
+<!-- Agrego banner de fondo junto con su estilo degradado-->
+<div class="banner d-flex align-items-center justify-content-center h=75" [ngStyle]="{backgroundImage:' linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url('+urlImg+')'}">
+  <!-- contenedor de foto e info personal rapida-->
   <div class="banner-container">
-    <div class="container-img">
-      <img src="../../../assets/perfil_foto.png" alt="">
-    </div>
+        <div class="container-img">
+          <img src="../../../assets/perfil_foto.png" alt="">
+        </div>
     <h1>JUAN VASQUEZ</h1>
-    <h2>Programador Autodidacta</h2>
+    <h2>Programador backend</h2>
+    <!--redes sociales -->
     <div class="social">
         <a class="social-linkedin" href="https://www.linkedin.com/in/juan-manuel-vasquez-leon-099bb220b/" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

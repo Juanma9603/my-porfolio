@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class BannerComponent {
   urlImg: string='../../../assets/laptop-gf2bb58296_1280.jpg';
-  photo: string=`url('${this.urlImg}')`;
+
 }
